@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'SF Distant Galaxy';
+  src: local('SF Distant Galaxy'), url(fonts/SF\ Distant\ Galaxy.ttf), format('ttf');
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  font-family: 'SF Distant Galaxy';
+  overflow: hidden;
+  /* height: 5000px; */
+}
+
+#heading {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 32px;
+}
+
+.border {
+  background: linear-gradient(90deg, gray, 90%, black);
+  height: 2px;
+  width: 80vw;
+  margin-top: 4px;
+}
+
+h1 {
+  color: rgb(16, 188, 240);
+  font-size: 4em;
+  margin: 0px;
+  font-weight: 100;
+}
+
+#progress-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#progress {
+  font-size: 3em;
+  color: rgb(16, 188, 240);
+}
+
+#p {
+  color: rgb(16, 188, 240);
+  position: fixed;
+  width: 50%;
+  padding: 32px;
+}
+
+/* #pi {
+  color: rgb(16, 188, 240);
+  position: fixed;
+  width: 30%;
+  padding: 120px;
+  margin-left: 2;
+  
+} */
