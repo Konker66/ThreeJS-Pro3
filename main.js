@@ -1,7 +1,7 @@
 // Import the necessary modules from the Three.js library
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js'; 
 
 // Create a WebGL renderer with antialiasing enabled
 const renderer = new THREE.WebGLRenderer({ antialias: true });
